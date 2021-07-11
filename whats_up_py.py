@@ -64,23 +64,9 @@ def coleman_liau_index():
 
         print("grade 1")
 
-    elif grade <= 8:
-
-        print("grade 2")
-
-    elif grade <= 10:
-
-        print("grade 9")
-    elif grade <= 13:
-
-        print("grade 11")
-
-    elif grade <= 15:
-
-        print("grade 14")
 
     else:
-        print("Error")
+        print(f"grade {grade}")
 
 
 coleman_liau_index()
